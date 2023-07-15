@@ -8,6 +8,7 @@
   - [Built with](#built-with)
 
 ## Overview
+
 Hoobank website
 
 ### Screenshot
@@ -16,9 +17,8 @@ Hoobank website
 
 ### Links
 
-- Git URL: https://github.com/thusmiley/hoobank.git
-- Live Site URL: https://bankapp-kappa.vercel.app/
-
+- Git URL: https://github.com/thusmiley/manage.git
+- Live Site URL: https://manage-ashy.vercel.app/
 
 ### Built with
 

@@ -25,27 +25,27 @@ export const navLinks = [
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: "./src/assets/icon-facebook.svg",
+    icon: "/src/assets/icon-facebook.svg",
     link: "https://www.facebook.com/",
   },
   {
     id: "social-media-2",
-    icon: "./src/assets/icon-youtube.svg",
+    icon: "/src/assets/icon-youtube.svg",
     link: "https://www.youtube.com/",
   },
   {
     id: "social-media-3",
-    icon: "./src/assets/icon-twitter.svg",
+    icon: "/src/assets/icon-twitter.svg",
     link: "https://www.twitter.com/",
   },
   {
     id: "social-media-4",
-    icon: "./src/assets/icon-pinterest.svg",
+    icon: "/src/assets/icon-pinterest.svg",
     link: "https://www.pinterest.com/",
   },
   {
     id: "social-media-5",
-    icon: "./src/assets/icon-instagram.svg",
+    icon: "/src/assets/icon-instagram.svg",
     link: "https://www.instagram.com/",
   },
 ];

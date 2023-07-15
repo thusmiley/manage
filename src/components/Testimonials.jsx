@@ -12,7 +12,7 @@ const Testimonials = () => {
         <AwesomeSlider className="">
           <div className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] ">
             <img
-              src="./src/assets/avatar-anisha.png"
+              src="/src/assets/avatar-anisha.png"
               alt="Ali Bravo"
               className="rounded-full -mt-[76px] w-[72px] h-[72px] object-contain"
             />
@@ -25,7 +25,7 @@ const Testimonials = () => {
           </div>
           <div className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] ">
             <img
-              src="./src/assets/avatar-ali.png"
+              src="/src/assets/avatar-ali.png"
               alt="Anisha Li"
               className="rounded-full -mt-[76px] w-[72px] h-[72px] object-contain"
             />
@@ -38,7 +38,7 @@ const Testimonials = () => {
           </div>
           <div className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] ">
             <img
-              src="./src/assets/avatar-richard.png"
+              src="/src/assets/avatar-richard.png"
               alt="Richard Watts"
               className="rounded-full -mt-[76px] w-[72px] h-[72px] object-contain"
             />
@@ -51,7 +51,7 @@ const Testimonials = () => {
           </div>
           <div className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] ">
             <img
-              src="./src/assets/avatar-shanai.png"
+              src="/src/assets/avatar-shanai.png"
               alt="Shanai Gough"
               className="rounded-full -mt-[76px] w-[72px] h-[72px] object-contain"
             />

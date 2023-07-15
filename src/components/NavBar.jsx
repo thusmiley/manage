@@ -24,7 +24,7 @@ const NavBar = () => {
     >
       <div className="w-container mx-auto flex justify-between items-center">
         <img
-          src="./src/assets/logo.svg"
+          src="/src/assets/logo.svg"
           alt="logo"
           className="w-[110px] h-[18px]"
         />
