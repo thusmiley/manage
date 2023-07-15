@@ -1,7 +1,9 @@
 "use client";
 import { navLinks } from "../constants";
 import { useState, useEffect } from "react";
-import logo from '../assets/logo.svg'
+import logo from "../assets/logo.svg";
+import close from "../assets/icon-close.svg";
+import hamburger from "../assets/icon-hamburger.svg";
 
 const NavBar = () => {
   const [toggle, setToggle] = useState(false);
@@ -24,11 +26,7 @@ const NavBar = () => {
       className="pt-10 pb-4 lg:pt-14 lg:pb-6 fixed left-0 right-0 z-20 "
     >
       <div className="w-container mx-auto flex justify-between items-center">
-        <img
-          src={logo}
-          alt="logo"
-          className="w-[110px] h-[18px]"
-        />
+        <img src={logo} alt="logo" className="w-[110px] h-[18px]" />
 
         {/* Tablet, desktop menu  */}
         <ul className="sm:flex hidden w-full lg:w-auto justify-end lg:justify-center items-center flex-1 font-medium text-[13px]">
@@ -52,11 +50,7 @@ const NavBar = () => {
           />
           <div className="w-[25px] h-[25px] object-contain z-20 cursor-pointer">
             <img
-              src={
-                toggle
-                  ? "./src/assets/icon-close.svg"
-                  : "src/assets/icon-hamburger.svg"
-              }
+              src={toggle ? close : hamburger}
               alt="menu"
               onClick={() => setToggle(!toggle)}
             />
