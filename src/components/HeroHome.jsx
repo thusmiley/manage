@@ -1,3 +1,4 @@
+import heroImage from '../assets/hero-desktop.png'
 const HeroHome = () => {
   return (
     <section
@@ -7,7 +8,7 @@ const HeroHome = () => {
       <div className="lg:w-container lg:flex lg:flex-row-reverse lg:justify-between lg:items-center lg:gap-10">
         <div className=" w-container lg:w-[50%] sm:min-h-[286px] mx-auto">
           <img
-            src="/src/assets/hero-desktop.png"
+            src={heroImage}
             alt="hero image"
             className="w-full"
           />

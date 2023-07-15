@@ -1,6 +1,7 @@
 "use client";
 import { navLinks } from "../constants";
 import { useState, useEffect } from "react";
+import logo from '../assets/logo.svg'
 
 const NavBar = () => {
   const [toggle, setToggle] = useState(false);
@@ -24,7 +25,7 @@ const NavBar = () => {
     >
       <div className="w-container mx-auto flex justify-between items-center">
         <img
-          src="/src/assets/logo.svg"
+          src={logo}
           alt="logo"
           className="w-[110px] h-[18px]"
         />
