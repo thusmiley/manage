@@ -1,6 +1,11 @@
 import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 
+import ali from "../assets/avatar-ali.png";
+import anisha from "../assets/avatar-anisha.png";
+import richard from "../assets/avatar-richard.png";
+import shanai from "../assets/avatar-shanai.png";
+
 const Testimonials = () => {
   return (
     <section
@@ -12,7 +17,7 @@ const Testimonials = () => {
         <AwesomeSlider className="">
           <div className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] ">
             <img
-              src="/src/assets/avatar-anisha.png"
+              src={ali}
               alt="Ali Bravo"
               className="rounded-full -mt-[76px] w-[72px] h-[72px] object-contain"
             />
@@ -25,7 +30,7 @@ const Testimonials = () => {
           </div>
           <div className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] ">
             <img
-              src="/src/assets/avatar-ali.png"
+              src={anisha}
               alt="Anisha Li"
               className="rounded-full -mt-[76px] w-[72px] h-[72px] object-contain"
             />
@@ -38,7 +43,7 @@ const Testimonials = () => {
           </div>
           <div className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] ">
             <img
-              src="/src/assets/avatar-richard.png"
+              src={richard}
               alt="Richard Watts"
               className="rounded-full -mt-[76px] w-[72px] h-[72px] object-contain"
             />
@@ -51,7 +56,7 @@ const Testimonials = () => {
           </div>
           <div className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] ">
             <img
-              src="/src/assets/avatar-shanai.png"
+              src={shanai}
               alt="Shanai Gough"
               className="rounded-full -mt-[76px] w-[72px] h-[72px] object-contain"
             />
