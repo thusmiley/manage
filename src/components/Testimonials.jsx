@@ -15,17 +15,18 @@ const Testimonials = () => {
       className="mt-20 lg:-mt-8 flexCenter flex-col overflow-visible"
     >
       <h2 className="heading2 text-center mb-16">What they&apos;ve said</h2>
-      <div className=" w-container md:w-full">
+      <div className=" w-container md:w-full xl:w-container">
         <Swiper
           centeredSlides={true}
-          centeredSlidesBounds={true}
-          initialSlide={0}
-          observer={true}
-          observeParents={true}
+          // centeredSlidesBounds={true}
+          initialSlide={1}
+          // observer={true}
+          // observeParents={true}
           navigation={false}
           pagination={{ clickable: true }}
           modules={[Pagination, Autoplay]}
           autoplay={{ delay: 6000 }}
+          loop={true}
           breakpoints={{
             0: {
               slidesPerView: 1,
@@ -40,7 +41,7 @@ const Testimonials = () => {
               spaceBetween: 20,
             },
             1200: {
-              slidesPerView: 3,
+              slidesPerView: 2,
               spaceBetween: 30,
             },
           }}
