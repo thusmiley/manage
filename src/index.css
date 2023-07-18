@@ -195,6 +195,31 @@
 }
 
 /* testimonial slider  */
+.swiper-container {
+  position: relative;
+}
+.swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  outline: theme("colors.primary") 1px solid;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: theme("colors.primary");
+  outline: theme("colors.primary") 1px solid;
+}
+
+.swiper-pagination {
+  bottom: -7px !important;
+}
+
+@media screen and (min-width: 1200px) {
+  .swiper-pagination {
+    display: none;
+  }
+}
 
 /* get started  */
 .getstarted-bg::before {
@@ -209,5 +234,4 @@
   left: 0;
   right: 0;
   opacity: 0.07;
- 
 }

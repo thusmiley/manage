@@ -1,5 +1,7 @@
-import AwesomeSlider from "react-awesome-slider";
-import "react-awesome-slider/dist/styles.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination, Autoplay } from "swiper/modules";
 
 import ali from "../assets/avatar-ali.png";
 import anisha from "../assets/avatar-anisha.png";
@@ -13,9 +15,39 @@ const Testimonials = () => {
       className="mt-20 lg:-mt-8 flexCenter flex-col overflow-visible"
     >
       <h2 className="heading2 text-center mb-16">What they&apos;ve said</h2>
-      <div className="w-container mx-auto">
-        <AwesomeSlider className="">
-          <div className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] ">
+      <div className=" w-container md:w-full">
+        <Swiper
+          // slidesPerView={3}
+          centeredSlides={true}
+          centeredSlidesBounds={true}
+          initialSlide={0}
+          observer={true}
+          observeParents={true}
+          navigation={false}
+          pagination={{ clickable: true }}
+          modules={[Pagination, Autoplay]}
+          autoplay={{ delay: 6000 }}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            768: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1200: {
+              slidesPerView: 3,
+              spaceBetween: 30,
+            },
+          }}
+          className="pt-10 pb-7 overflow-hidden mySwiper"
+        >
+          <SwiperSlide className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] max-w-[340px] sm:min-w-[540px]">
             <img
               src={ali}
               alt="Ali Bravo"
@@ -27,8 +59,9 @@ const Testimonials = () => {
               using Manage. There is no more cross-channel confusion and
               everyone is much more focused.”
             </p>
-          </div>
-          <div className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] ">
+          </SwiperSlide>
+
+          <SwiperSlide className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] max-w-[340px] sm:min-w-[540px]">
             <img
               src={anisha}
               alt="Anisha Li"
@@ -40,8 +73,8 @@ const Testimonials = () => {
               using Manage. There is no more cross-channel confusion and
               everyone is much more focused.”
             </p>
-          </div>
-          <div className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] ">
+          </SwiperSlide>
+          <SwiperSlide className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] max-w-[340px] sm:min-w-[540px]">
             <img
               src={richard}
               alt="Richard Watts"
@@ -53,8 +86,8 @@ const Testimonials = () => {
               organized and focused. I can’t stop recommending them to everyone
               I talk to!”
             </p>
-          </div>
-          <div className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] ">
+          </SwiperSlide>
+          <SwiperSlide className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] max-w-[340px] sm:min-w-[540px]">
             <img
               src={shanai}
               alt="Shanai Gough"
@@ -66,8 +99,8 @@ const Testimonials = () => {
               projects from anywhere. It keeps the whole team in-sync without
               being intrusive.”
             </p>
-          </div>
-        </AwesomeSlider>
+          </SwiperSlide>
+        </Swiper>
       </div>
 
       <button className="mt-12">Get Started</button>
