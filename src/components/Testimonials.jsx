@@ -15,7 +15,7 @@ const Testimonials = () => {
       className="mt-20 lg:-mt-8 flexCenter flex-col overflow-visible"
     >
       <h2 className="heading2 text-center mb-16">What they&apos;ve said</h2>
-      <div className=" w-container md:w-full xl:w-container">
+      <div className=" w-container md:w-full">
         <Swiper
           centeredSlides={true}
           // centeredSlidesBounds={true}
@@ -37,15 +37,15 @@ const Testimonials = () => {
               spaceBetween: 20,
             },
             1024: {
-              slidesPerView: 2,
+              slidesPerView: 2.3,
               spaceBetween: 20,
             },
             1200: {
-              slidesPerView: 2,
+              slidesPerView: 2.5,
               spaceBetween: 30,
             },
           }}
-          className="pt-10 pb-8 overflow-hidden mySwiper"
+          className="pt-10 pb-8 overflow-hidden"
         >
           <SwiperSlide className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] min-w-[340px] sm:min-w-[540px]">
             <img
@@ -94,6 +94,19 @@ const Testimonials = () => {
               className="rounded-full -mt-[76px] w-[72px] h-[72px] object-contain"
             />
             <h3 className="heading3 mt-6 mb-4">Shanai Gough</h3>
+            <p className="paragraph">
+              “Their software allows us to track, manage and collaborate on our
+              projects from anywhere. It keeps the whole team in-sync without
+              being intrusive.”
+            </p>
+          </SwiperSlide>
+          <SwiperSlide className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] min-w-[340px] sm:min-w-[540px]">
+            <img
+              src={richard}
+              alt="Richard Watts"
+              className="rounded-full -mt-[76px] w-[72px] h-[72px] object-contain"
+            />
+            <h3 className="heading3 mt-6 mb-4">Richard Watts</h3>
             <p className="paragraph">
               “Their software allows us to track, manage and collaborate on our
               projects from anywhere. It keeps the whole team in-sync without
