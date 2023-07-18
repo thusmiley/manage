@@ -17,7 +17,6 @@ const Testimonials = () => {
       <h2 className="heading2 text-center mb-16">What they&apos;ve said</h2>
       <div className=" w-container md:w-full">
         <Swiper
-          // slidesPerView={3}
           centeredSlides={true}
           centeredSlidesBounds={true}
           initialSlide={0}
@@ -45,9 +44,9 @@ const Testimonials = () => {
               spaceBetween: 30,
             },
           }}
-          className="pt-10 pb-7 overflow-hidden mySwiper"
+          className="pt-10 pb-8 overflow-hidden mySwiper"
         >
-          <SwiperSlide className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] max-w-[340px] sm:min-w-[540px]">
+          <SwiperSlide className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] min-w-[340px] sm:min-w-[540px]">
             <img
               src={ali}
               alt="Ali Bravo"
@@ -61,7 +60,7 @@ const Testimonials = () => {
             </p>
           </SwiperSlide>
 
-          <SwiperSlide className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] max-w-[340px] sm:min-w-[540px]">
+          <SwiperSlide className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] min-w-[340px] sm:min-w-[540px]">
             <img
               src={anisha}
               alt="Anisha Li"
@@ -74,7 +73,7 @@ const Testimonials = () => {
               everyone is much more focused.”
             </p>
           </SwiperSlide>
-          <SwiperSlide className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] max-w-[340px] sm:min-w-[540px]">
+          <SwiperSlide className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] min-w-[340px] sm:min-w-[540px]">
             <img
               src={richard}
               alt="Richard Watts"
@@ -87,7 +86,7 @@ const Testimonials = () => {
               I talk to!”
             </p>
           </SwiperSlide>
-          <SwiperSlide className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] max-w-[340px] sm:min-w-[540px]">
+          <SwiperSlide className="bg-[#fafafa] flex flex-col justify-start items-center text-center px-5 py-10 min-h-[253px] min-w-[340px] sm:min-w-[540px]">
             <img
               src={shanai}
               alt="Shanai Gough"
