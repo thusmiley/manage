@@ -18,10 +18,7 @@ const Testimonials = () => {
       <div className=" w-container md:w-full">
         <Swiper
           centeredSlides={true}
-          // centeredSlidesBounds={true}
           initialSlide={1}
-          // observer={true}
-          // observeParents={true}
           navigation={false}
           pagination={{ clickable: true }}
           modules={[Pagination, Autoplay]}

@@ -68,7 +68,7 @@ const Footer = () => {
               </g>
             </svg>
 
-            <div className="flex justify-around mb-12 lg:mb-0 w-container sm:w-[60%] sm:justify-between lg:justify-start md:justify-evenly lg:mt-[86px]">
+            <div className="flex justify-around mb-12 lg:mb-0 w-container sm:w-[60%] sm:justify-between lg:justify-start md:justify-center lg:mt-[86px]">
               {socialMedia.map((social) => (
                 <a
                   href={social.link}
@@ -80,7 +80,7 @@ const Footer = () => {
                     key={social.id}
                     src={social.icon}
                     alt={social.id}
-                    className="w-[20px] h-[20px] object-contain hover:scale-110 transition ease-in delay-200 lg:mr-4"
+                    className="w-[20px] h-[20px] object-contain social-icon transition ease-in delay-200 md:mr-4"
                     onClick={() => window.open(social.link)}
                   />
                 </a>
@@ -95,7 +95,7 @@ const Footer = () => {
                   {footerlink.links.map((link) => (
                     <li
                       key={link.name}
-                      className="text-white mb-3 last:mb-0 hover:text-primary text-[15px] tracking-[-0.23px]transition ease-in-out delay-200"
+                      className="text-white mb-3 last:mb-0 hover:text-primary text-[15px] tracking-[-0.23px]transition ease-in-out duration-300"
                     >
                       <a href={link.link} target="blank">
                         {link.name}

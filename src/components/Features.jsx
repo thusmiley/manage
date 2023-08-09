@@ -4,7 +4,7 @@ const Features = () => {
       <div className="pt-48 lg:pt-0 lg:mt-28 lg:flex lg:w-container lg:mx-auto">
         <div className="lg:w-[50%]">
           <h2 className="heading2 text-center w-container mx-auto lg:mx-0 lg:text-left">
-            What’s different about Manage?
+            What’s different about <br className="hidden md:block"/> Manage?
           </h2>
           <p className="text-center paragraph mt-3 lg:mt-4 mb-12 lg:mb-0 w-container mx-auto lg:mx-0 lg:text-left lg:w-[40ch]">
             Manage provides all the functionality your team needs, without the
