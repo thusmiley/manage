@@ -164,7 +164,7 @@
 }
 
 .number {
-  @apply text-white bg-primary py-[6px] px-[25px] rounded-full mr-3;
+  @apply text-white bg-primary py-[6px] px-[25px] rounded-full mr-5;
 }
 
 /* features  */
