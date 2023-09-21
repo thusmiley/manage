@@ -3,7 +3,7 @@ const HeroHome = () => {
   return (
     <section
       id="hero"
-      className="flexCenter flex-col flex-1  pt-[111px] lg:pt-[220px] pb-2 mx-auto hero-bg overflow-visible"
+      className="flexCenter flex-col flex-1 pt-[111px] md:pt-[150px] pb-2 mx-auto hero-bg overflow-visible"
     >
       <div className="lg:w-container lg:flex lg:flex-row-reverse lg:justify-between lg:items-center lg:gap-10">
         <div className=" w-container lg:w-[50%] sm:min-h-[286px] mx-auto">

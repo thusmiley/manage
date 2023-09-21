@@ -1,6 +1,6 @@
 const Features = () => {
   return (
-    <section id="features" className="pt-20 -mt-40 lg:mt-0 lg:pt-0 lg:pb-40 features-bg">
+    <section id="features" className="pt-20 -mt-40 lg:mt-[132px] lg:pt-0 lg:pb-40 features-bg">
       <div className="pt-48 lg:pt-0 lg:mt-28 lg:flex lg:w-container lg:mx-auto">
         <div className="lg:w-[50%]">
           <h2 className="heading2 text-center w-container mx-auto lg:mx-0 lg:text-left">

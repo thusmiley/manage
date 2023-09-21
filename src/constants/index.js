@@ -31,27 +31,27 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon:  facebook ,
-    link: "https://www.facebook.com/",
+    link: "/",
   },
   {
     id: "social-media-2",
     icon: youtube ,
-    link: "https://www.youtube.com/",
+    link: "/",
   },
   {
     id: "social-media-3",
     icon: twitter ,
-    link: "https://www.twitter.com/",
+    link: "/",
   },
   {
     id: "social-media-4",
     icon: pinterest ,
-    link: "https://www.pinterest.com/",
+    link: "/",
   },
   {
     id: "social-media-5",
     icon:  instagram ,
-    link: "https://www.instagram.com/",
+    link: "/",
   },
 ];
 
@@ -61,19 +61,19 @@ export const footerLinks = [
     links: [
       {
         name: "Home",
-        link: "https://www.instagram.com/",
+        link: "/",
       },
       {
         name: "Pricing",
-        link: "https://www.instagram.com/",
+        link: "/",
       },
       {
         name: "Products",
-        link: "https://www.instagram.com/",
+        link: "/",
       },
       {
         name: "About Us",
-        link: "https://www.instagram.com/",
+        link: "/",
       },
     ],
   },
@@ -82,15 +82,15 @@ export const footerLinks = [
     links: [
       {
         name: "Careers",
-        link: "https://www.instagram.com/",
+        link: "/",
       },
       {
         name: "Community",
-        link: "https://www.instagram.com/",
+        link: "/",
       },
       {
         name: "Privacy Policy",
-        link: "https://www.instagram.com/",
+        link: "/",
       },
     ],
   },

@@ -19,12 +19,12 @@
   @screen sm {
     :root {
       --container-w: clamp(540px, 90%, 1280px);
-      --container-w-l: clamp(540px, 95%, 1280px);
+      --container-w-l: clamp(540px, 95%, 1110px);
     }
   }
   @screen xl {
     :root {
-      --container-w: clamp(1000px, 85%, 1530px);
+      --container-w: clamp(1000px, 85%, 1110px);
     }
   }
 
@@ -144,12 +144,12 @@
   }
   @screen md {
     background-size: 90%;
-    background-position: top -250px right -100px;
+    background-position: top -350px right -100px;
   }
 
   @screen lg {
     background-size: 70%;
-    background-position: top -200px right -300px;
+    background-position: top -350px right -300px;
   }
 
   @screen xl {
@@ -172,11 +172,11 @@
   background-image: url("/src/assets/pattern.png");
   background-repeat: no-repeat;
   background-size: 80%;
-  background-position: top -40px right -160px;
+  background-position: top -50px right -170px;
 
   @screen sm {
     background-size: 50%;
-    background-position: top -40px right -250px;
+    background-position: top -40px right -200px;
   }
 
   @screen lg {
@@ -222,20 +222,6 @@
 }
 
 /* get started  */
-.getstarted-bg::before {
-  content: "";
-  background-image: url("/src/assets/pattern.png");
-  background-repeat: no-repeat;
-  background-size: 90%;
-  background-position: top 40px left -250px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0.07;
-}
-
 .social-icon:hover {
   filter: invert(0.4) sepia(1) saturate(20) hue-rotate(0deg) brightness(1.2);
 }

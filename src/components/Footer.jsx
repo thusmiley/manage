@@ -68,7 +68,7 @@ const Footer = () => {
               </g>
             </svg>
 
-            <div className="flex justify-around mb-12 lg:mb-0 w-container sm:w-[60%] sm:justify-between lg:justify-start md:justify-center lg:mt-[86px]">
+            <div className="flex justify-center space-x-[34px] mb-12 lg:mb-0 lg:mt-[90px] md:space-x-[13px] md:justify-start">
               {socialMedia.map((social) => (
                 <a
                   href={social.link}
@@ -88,7 +88,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex flex-1 gap-5 justify-around mb-12 lg:mb-0 lg:w-[55%] md:justify-evenly lg:justify-between">
+          <div className="flex flex-1 gap-5 justify-center space-x-[100px] mb-12 lg:mb-0 lg:w-[55%] md:justify-evenly lg:justify-between">
             {footerLinks.map((footerlink) => (
               <div key={footerlink.group}>
                 <ul className="">
@@ -97,7 +97,7 @@ const Footer = () => {
                       key={link.name}
                       className="text-white mb-3 last:mb-0 hover:text-primary text-[15px] tracking-[-0.23px]transition ease-in-out duration-300"
                     >
-                      <a href={link.link} target="blank">
+                      <a href={link.link}>
                         {link.name}
                       </a>
                     </li>
@@ -109,12 +109,12 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 lg:mt-0 text-center lg:w-[35%] lg:flex-col">
-          <div className="absolute lg:relative top-12 lg:top-0 flex justify-between lg:justify-end w-full sm:w-[60%] lg:w-full sm:left-0 sm:right-0 sm:mx-auto lg:mb-[60px]">
+          <div className="absolute lg:relative top-12 lg:top-0 flex justify-between lg:justify-end w-full sm:w-[60%] lg:w-full sm:left-0 sm:right-0 sm:mx-auto md:mb-[62px]">
             <div className="absolute top-[52px] left-8 text-[10px] tracking-[-0.08] italic">
               {errorMessage()} {successMessage()}
             </div>
             <input
-              className="text-secondary text-[13px] rounded-full py-3 pl-8 mr-2 w-full outline-none placeholder-shown:text-[#8D8D8D] autofill:bg-white lg:max-w-[200px]"
+              className="text-secondary text-[13px] rounded-full py-3 pl-8 mr-2 w-full outline-none placeholder-shown:text-[#8D8D8D] autofill:bg-white lg:max-w-[230px]"
               value={inputValue}
               onChange={handleInput}
               type="email"
